@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(174, 148, 216);
+    color: #2B3499;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    padding: 10px;
+    width: 50vh;
+    min-height: 60vh;
+    background-color: #FFD090;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    border: 2px solid #2B3499;
+}
+
+#Title {
+    justify-self: center;
+    align-self: center;
+    margin: 5% 0 2%;
+
+}
+
+#time-container {
+    justify-self: center;
+    align-self: center;
+    border: 5px solid #FF6C22;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-primary {
+    background-color: #2B3499;
+    padding: 5 25px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(174, 148, 216);
+}
+
+.deleteBtn {
+    height: 35px;
+    padding: 5px 0px;
+    margin-left: 30%;
+}
+
+#list-container-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+
+ol {
+    justify-content: end;
+    margin: 10px 0;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+}
+
+
+.list-container {
+    
+}
+
+.li-item {
+    margin: 0 5px 0 0;
+}
