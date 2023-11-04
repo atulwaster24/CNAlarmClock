@@ -128,7 +128,7 @@ function renderList(list) {
         const li = document.createElement("li");
         li.id = item.id;
         li.className = "li-item";
-        li.innerHTML = `${item.hourValue}:${item.minuteValue}:${item.secondValue} ${item.ampmValue}<img src="static/icons8_delete.svg" class="deleteBtn" data-targetId="${li.id}">`;
+        li.innerHTML = `${item.hourValue}:${item.minuteValue}:${item.secondValue} ${item.ampmValue}<img src="icons8_delete.svg" class="deleteBtn" data-targetId="${li.id}">`;
 
         alarmList.appendChild(li);
         handleDelete();
